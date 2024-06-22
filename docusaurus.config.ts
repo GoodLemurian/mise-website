@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '地図の店 中国書店',
+  tagline: '広島市内小学校社会科副読本「わたしたちの広島」並びに児童用「広島市地図」「広島県地図」及び国土地理院地形図等を取り扱っております。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -58,22 +58,27 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: '中国書店',
       logo: {
-        alt: 'My Site Logo',
+        alt: '中国書店',
         src: 'img/logo.svg',
       },
       items: [
+        {to: '/blog', label: 'お知らせ', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '取扱商品',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/tsushinhanbai', label: '通信販売', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -82,41 +87,58 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Information',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
+              label: 'お知らせ',
               to: '/blog',
             },
+          ],
+        },
+        {
+          title: '取扱商品',
+          items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'わたしたちの広島',
+              to: '/docs/watashitachi-no-hiroshima',
+            },
+            {
+              label: '広島市・県地図',
+              to: '/docs/city-pref-maps',
+            },
+            {
+              label: '国土地理院地形図',
+              to: '/docs/gsi-maps',
+            },
+            {
+              label: 'その他の取扱商品',
+              to: '/docs/others',
+            },
+          ],
+        },
+        {
+          title: '通信販売',
+          items: [
+            {
+              label: 'ご案内',
+              href: '/tsushinhanbai',
+            },
+            {
+              label: 'ご注文フォーム',
+              href: 'https://forms.gle/6u5BAaspssEDjGtf8',
+            },
+          ],
+        },
+        {
+          title: '店舗情報',
+          items: [
+            {
+              label: 'アクセス',
+              to: '/access',
+            },
+            {
+              label: 'お問い合わせ',
+              to: 'https://forms.gle/px2mS6unWPhY7UwM6',
             },
           ],
         },

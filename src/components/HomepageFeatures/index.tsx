@@ -10,32 +10,47 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'わたしたちの広島',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        昭和32年（1957）以来、広島市の小学校3・4年生の郷土史学習のための「社会科副読本」として採択されています。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '広島市地図・県地図',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        「わたしたちの広島」の内容に合わせて編集した広島市・県の地図です。多くの小学校でご利用いただいております。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '国土地理院地形図',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        国土地理院発行の各種地形図の取次販売を行っております。
+      </>
+    ),
+  },
+  {
+    title: 'その他の取扱商品',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        地図や広島に関する各種書籍をご紹介しております。
+      </>
+    ),
+  },
+  {
+    title: '通信販売の申込',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        取扱商品はこちらのフォームからご注文いただくことができます。
       </>
     ),
   },
