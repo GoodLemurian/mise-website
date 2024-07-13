@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 広島市・県地図
+# 広島県地図
 
 This is my **first Docusaurus document**!

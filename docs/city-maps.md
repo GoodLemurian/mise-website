@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# 国土地理院地形図
+# 広島市地図
 
 This is my **first Docusaurus document**!

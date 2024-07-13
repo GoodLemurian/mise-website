@@ -6,7 +6,7 @@ function BlogFeedComponent() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const url = 'https://goodlemurian.github.io/mise-website/blog/feed.json';
+    const url = 'https://goodlemurian.github.io/mise-website/feed.json';
 
     fetch(url)
       .then((response) => {
@@ -36,11 +36,15 @@ function BlogFeedComponent() {
   return (
     <section className={styles.blogfeed}>
       <div className="container">
-        <h3>新着情報</h3>
+        <h3>お知らせ</h3>
         <ul className={styles.latestArticle}>
           {blogFeed.items.map((item, index) => (
             <article key={index} className={styles.article}>
-              <li className={styles.articleTitle}>{item.date_modified}：{item.title}</li>
+              <a href={item.url} className={styles.articleLink}>
+                <li className={styles.articleTitle}>
+                  {item.date_modified && (<span className={styles.articleDate}>{item.date_modified.substring(0, 10)}</span>)}：{item.title}
+                </li>
+              </a>
             </article>
           ))}
         </ul>

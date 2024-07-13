@@ -1,6 +1,6 @@
 ---
 slug: Hiroshima-Chireki-Walk
-title: 『ひろしま地歴ウォーク』』発売
+title: 『ひろしま地歴ウォーク』発売
 authors: [endi]
 tags: [新発売]
 ---

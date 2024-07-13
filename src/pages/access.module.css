@@ -1,0 +1,23 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.gMap {
+  display: 'flex';
+  padding-top: 2rem;
+}
+.address {
+  display: 'flex';
+  padding: 2rem 0;
+}
+.address table {
+  width: 100%;
+  display: table;
+}
+.address table th {
+  width: 25%;
+}
+.address table td {
+  width: 75%;
+}

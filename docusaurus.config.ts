@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: '地図の店 中国書店',
-  tagline: '広島市内小学校社会科副読本「わたしたちの広島」並びに児童用「広島市地図」「広島県地図」及び国土地理院地形図等を取り扱っております。',
+  tagline: '広島市内小学校社会科副読本「わたしたちの広島」並びに児童用「広島市地図」「広島県地図」を取り扱っております。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -24,10 +24,10 @@ const config: Config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  // i18n: {
-  //   defaultLocale: 'ja',
-  //   locales: ['ja'],
-  // },
+  i18n: {
+    defaultLocale: 'ja',
+    locales: ['ja'],
+  },
 
   presets: [
     [
@@ -43,10 +43,11 @@ const config: Config = {
           include: ['*.md', '*.mdx'],
           blogSidebarTitle: 'All posts',
           feedOptions: {
-            "type": "json",
-            "title": "My Blog",
-            "description": "My Blog RSS feed",
-            "copyright": "Copyright © " + new Date().getFullYear() + " My Project",
+            type: 'json',
+            title: '',
+            description: '',
+            limit: 3,
+            copyright: "Copyright © " + new Date().getFullYear() + " 中国書店",
             createFeedItems: async (params) => {
               const {blogPosts, defaultCreateFeedItems, ...rest} = params;
               return defaultCreateFeedItems({
@@ -81,11 +82,7 @@ const config: Config = {
           label: '取扱商品',
         },
         {to: '/tsushinhanbai', label: '通信販売', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: '/access', label: 'アクセス', position: 'left'},
         {
           type: 'localeDropdown',
           position: 'right',
@@ -112,16 +109,12 @@ const config: Config = {
               to: '/docs/watashitachi-no-hiroshima',
             },
             {
-              label: '広島市・県地図',
-              to: '/docs/city-pref-maps',
+              label: '広島市地図',
+              to: '/docs/city-maps',
             },
             {
-              label: '国土地理院地形図',
-              to: '/docs/gsi-maps',
-            },
-            {
-              label: 'その他の取扱商品',
-              to: '/docs/others',
+              label: '広島県地図',
+              to: '/docs/pref-maps',
             },
           ],
         },
@@ -147,12 +140,12 @@ const config: Config = {
             },
             {
               label: 'お問い合わせ',
-              to: 'https://forms.gle/px2mS6unWPhY7UwM6',
+              href: 'https://forms.gle/px2mS6unWPhY7UwM6',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 中国書店. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

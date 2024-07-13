@@ -6,6 +6,7 @@ type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
+  link: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -17,55 +18,44 @@ const FeatureList: FeatureItem[] = [
         昭和32年（1957）以来、広島市の小学校3・4年生の郷土史学習のための「社会科副読本」として採択されています。
       </>
     ),
+    link: './docs/watashitachi-no-hiroshima',
   },
   {
     title: '広島市地図・県地図',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        「わたしたちの広島」の内容に合わせて編集した広島市・県の地図です。多くの小学校でご利用いただいております。
+        「わたしたちの広島」の内容に合わせて編集した広島市の地図です。多くの小学校でご利用いただいております。
       </>
     ),
+    link: './docs/city-maps',
   },
   {
-    title: '国土地理院地形図',
+    title: '広島県地図',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        国土地理院発行の各種地形図の取次販売を行っております。
+        「わたしたちの広島」の内容に合わせて編集した広島県の地図です。多くの小学校でご利用いただいております。
       </>
     ),
-  },
-  {
-    title: 'その他の取扱商品',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        地図や広島に関する各種書籍をご紹介しております。
-      </>
-    ),
-  },
-  {
-    title: '通信販売の申込',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        取扱商品はこちらのフォームからご注文いただくことができます。
-      </>
-    ),
+    link: './docs/pref-maps',
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <a href={link} className={styles.featureLink}>
+          <Svg className={styles.featureSvg} role="img" />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <a href={link} className={styles.featureLink}>
+          <Heading as="h3">{title}</Heading>
+        </a>
         <p>{description}</p>
-      </div>
+       </div>
     </div>
   );
 }
