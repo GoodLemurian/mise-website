@@ -71,7 +71,7 @@ const config: Config = {
       title: '中国書店',
       logo: {
         alt: '中国書店',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {to: '/blog', label: 'お知らせ', position: 'left'},
