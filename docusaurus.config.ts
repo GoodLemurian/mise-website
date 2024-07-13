@@ -75,12 +75,7 @@ const config: Config = {
       },
       items: [
         {to: '/blog', label: 'お知らせ', position: 'left'},
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: '取扱商品',
-        },
+        {to: '/goods', label: '取扱商品', position: 'left'},
         {to: '/tsushinhanbai', label: '通信販売', position: 'left'},
         {to: '/access', label: 'アクセス', position: 'left'},
         {
@@ -106,15 +101,15 @@ const config: Config = {
           items: [
             {
               label: 'わたしたちの広島',
-              to: '/docs/watashitachi-no-hiroshima',
+              to: '/goods#わたしたちの広島',
             },
             {
               label: '広島市地図',
-              to: '/docs/city-maps',
+              to: '/goods#広島市地図',
             },
             {
               label: '広島県地図',
-              to: '/docs/pref-maps',
+              to: '/goods#広島県地図',
             },
           ],
         },
@@ -122,7 +117,7 @@ const config: Config = {
           title: '通信販売',
           items: [
             {
-              label: 'ご案内',
+              label: '通信販売のご案内',
               href: '/tsushinhanbai',
             },
             {

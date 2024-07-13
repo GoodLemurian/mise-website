@@ -2,11 +2,17 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Iframe from 'react-iframe';
 import styles from './access.module.css';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const Access: React.FC = () => {
   return (
     <Layout title="アクセス" description="アクセスページの説明">
       <main>
+        <section className={styles.breadcrumbs}>
+          <div className="container">
+            <Breadcrumbs />
+          </div>
+        </section>
         <section className={styles.gMap}>
           <div className="container">
             <h1>アクセス</h1>

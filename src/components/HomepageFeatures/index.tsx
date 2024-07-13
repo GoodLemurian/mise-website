@@ -18,7 +18,7 @@ const FeatureList: FeatureItem[] = [
         昭和32年（1957）以来、広島市の小学校3・4年生の郷土史学習のための「社会科副読本」として採択されています。
       </>
     ),
-    link: './docs/watashitachi-no-hiroshima',
+    link: './goods#わたしたちの広島',
   },
   {
     title: '広島市地図',
@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
         「わたしたちの広島」の内容に合わせて編集した広島市の地図です。多くの小学校でご利用いただいております。
       </>
     ),
-    link: './docs/city-maps',
+    link: './goods#広島市地図',
   },
   {
     title: '広島県地図',
@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
         「わたしたちの広島」の内容に合わせて編集した広島県の地図です。多くの小学校でご利用いただいております。
       </>
     ),
-    link: './docs/pref-maps',
+    link: './goods#広島県地図',
   },
 ];
 
