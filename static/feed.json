@@ -1,0 +1,100 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "My Blog",
+    "home_page_url": "https://goodlemurian.github.io/mise-website/blog",
+    "description": "My Blog RSS feed",
+    "items": [
+        {
+            "id": "https://goodlemurian.github.io/mise-website/blog/R6-Release",
+            "content_html": "<p>令和6年度版の小学校社会科副読本<a href=\"https://goodlemurian.github.io/mise-website/docs/watashitachi-no-hiroshima\">わたしたちの広島</a> および、\n児童用副教材<a href=\"https://goodlemurian.github.io/mise-website/docs/city-pref-maps\">広島市・県地図</a>を発売しました。</p>\n<p>この度、小学校３年生・４年生用社会科教材として、「広島市地図」ならびに「広島県地図」の見本を広島市内小学校にお届けしております。\n３・４年生担任先生におかれましては、ご検討の上、是非ともご採択くださいます様、よろしくお願いいたします。</p>\n<ul>\n<li>「わたしたちの広島」　８８０円（税込）</li>\n<li>「広島市地図」　２６０円（税込）</li>\n<li>「広島県地図」　２６０円（税込）</li>\n</ul>\n<p><a href=\"https://forms.gle/6u5BAaspssEDjGtf8\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a> のフォームよりご注文いただけます。</p>",
+            "url": "https://goodlemurian.github.io/mise-website/blog/R6-Release",
+            "title": "令和６年度版『わたしたちの広島』、「広島市地図」「広島県地図」発売のお知らせ",
+            "summary": "令和6年度版の小学校社会科副読本わたしたちの広島 および、",
+            "date_modified": "2024-04-26T00:00:00.000Z",
+            "author": {
+                "name": "Endilie Yacop Sucipto",
+                "url": "https://github.com/endiliey"
+            },
+            "tags": [
+                "新発売"
+            ]
+        },
+        {
+            "id": "https://goodlemurian.github.io/mise-website/blog/USNavy-Airraid",
+            "content_html": "<p>工藤洋三著『アメリカ海軍艦載機の日本空襲 -１９４５年２月の東京空襲から連合軍捕虜の解放まで』発売</p>\n<p>昭和２０（１９４５）年３月１９日の呉空襲、４月７日の戦艦大和攻撃、７月２４～２５日・２８日の呉空襲についても紹介があります。\n<a href=\"https://goodlemurian.github.io/mise-website/docs/others\">詳細ページ</a></p>\n<ul>\n<li>定価３，０８０円（税込）</li>\n<li>A4版</li>\n<li>260ページ</li>\n</ul>\n<p><a href=\"https://forms.gle/6u5BAaspssEDjGtf8\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a> のフォームよりご注文いただけます。</p>",
+            "url": "https://goodlemurian.github.io/mise-website/blog/USNavy-Airraid",
+            "title": "『アメリカ海軍艦載機の日本空襲 -１９４５年２月の東京空襲から連合軍捕虜の解放まで』発売",
+            "summary": "工藤洋三著『アメリカ海軍艦載機の日本空襲 -１９４５年２月の東京空襲から連合軍捕虜の解放まで』発売",
+            "date_modified": "2018-07-27T00:00:00.000Z",
+            "author": {
+                "name": "Endilie Yacop Sucipto",
+                "url": "https://github.com/endiliey"
+            },
+            "tags": [
+                "新発売"
+            ]
+        },
+        {
+            "id": "https://goodlemurian.github.io/mise-website/blog/Hiroshima-Chireki-Walk",
+            "content_html": "<p>広島地理教育研究会編『ひろしま地歴ウォーク』発売</p>\n<p>広島の街をちょっと“アカデミック”に歩く！　新しいカタチのタウン情報誌。\n<a href=\"https://goodlemurian.github.io/mise-website/docs/others\">詳細ページ</a></p>\n<ul>\n<li>定価９９８円（税込）</li>\n<li>A4版</li>\n<li>260ページ</li>\n</ul>\n<p><a href=\"https://forms.gle/6u5BAaspssEDjGtf8\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a> のフォームよりご注文いただけます。</p>",
+            "url": "https://goodlemurian.github.io/mise-website/blog/Hiroshima-Chireki-Walk",
+            "title": "『ひろしま地歴ウォーク』』発売",
+            "summary": "広島地理教育研究会編『ひろしま地歴ウォーク』発売",
+            "date_modified": "2018-03-30T00:00:00.000Z",
+            "author": {
+                "name": "Endilie Yacop Sucipto",
+                "url": "https://github.com/endiliey"
+            },
+            "tags": [
+                "新発売"
+            ]
+        },
+        {
+            "id": "https://goodlemurian.github.io/mise-website/blog/first-blog-post",
+            "content_html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>",
+            "url": "https://goodlemurian.github.io/mise-website/blog/first-blog-post",
+            "title": "First Blog Post",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date_modified": "2000-01-01T00:00:00.000Z",
+            "author": {
+                "name": "Endilie Yacop Sucipto",
+                "url": "https://github.com/endiliey"
+            },
+            "tags": [
+                "hola",
+                "docusaurus"
+            ]
+        },
+        {
+            "id": "https://goodlemurian.github.io/mise-website/blog/long-blog-post",
+            "content_html": "<p>This is the summary of a very long blog post,</p>\n<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>",
+            "url": "https://goodlemurian.github.io/mise-website/blog/long-blog-post",
+            "title": "Long Blog Post",
+            "summary": "This is the summary of a very long blog post,",
+            "date_modified": "2000-01-01T00:00:00.000Z",
+            "author": {
+                "name": "Endilie Yacop Sucipto",
+                "url": "https://github.com/endiliey"
+            },
+            "tags": [
+                "hello",
+                "docusaurus"
+            ]
+        },
+        {
+            "id": "https://goodlemurian.github.io/mise-website/blog/mdx-blog-post",
+            "content_html": "<p>Blog posts support <a href=\"https://docusaurus.io/docs/markdown-features\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus Markdown features</a>, such as <a href=\"https://mdxjs.com/\" target=\"_blank\" rel=\"noopener noreferrer\">MDX</a>.</p>\n<div class=\"theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success\"><div class=\"admonitionHeading_Gvgb\"><span class=\"admonitionIcon_Rf37\"><svg viewBox=\"0 0 12 16\"><path fill-rule=\"evenodd\" d=\"M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z\"></path></svg></span>tip</div><div class=\"admonitionContent_BuS1\"><p>Use the power of React to create interactive blog posts.</p><div class=\"language-js codeBlockContainer_Ckt0 theme-code-block\" style=\"--prism-color:#393A34;--prism-background-color:#f6f8fa\"><div class=\"codeBlockContent_biex\"><pre tabindex=\"0\" class=\"prism-code language-js codeBlock_bY9V thin-scrollbar\" style=\"color:#393A34;background-color:#f6f8fa\"><code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#393A34\"><span class=\"token operator\" style=\"color:#393A34\">&lt;</span><span class=\"token plain\">button onClick</span><span class=\"token operator\" style=\"color:#393A34\">=</span><span class=\"token punctuation\" style=\"color:#393A34\">{</span><span class=\"token punctuation\" style=\"color:#393A34\">(</span><span class=\"token punctuation\" style=\"color:#393A34\">)</span><span class=\"token plain\"> </span><span class=\"token arrow operator\" style=\"color:#393A34\">=&gt;</span><span class=\"token plain\"> </span><span class=\"token function\" style=\"color:#d73a49\">alert</span><span class=\"token punctuation\" style=\"color:#393A34\">(</span><span class=\"token string\" style=\"color:#e3116c\">'button clicked!'</span><span class=\"token punctuation\" style=\"color:#393A34\">)</span><span class=\"token punctuation\" style=\"color:#393A34\">}</span><span class=\"token operator\" style=\"color:#393A34\">&gt;</span><span class=\"token maybe-class-name\">Click</span><span class=\"token plain\"> me</span><span class=\"token operator\" style=\"color:#393A34\">!</span><span class=\"token operator\" style=\"color:#393A34\">&lt;</span><span class=\"token operator\" style=\"color:#393A34\">/</span><span class=\"token plain\">button</span><span class=\"token operator\" style=\"color:#393A34\">&gt;</span><br></span></code></pre><div class=\"buttonGroup__atx\"><button type=\"button\" aria-label=\"Copy code to clipboard\" title=\"Copy\" class=\"clean-btn\"><span class=\"copyButtonIcons_eSgA\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"copyButtonIcon_y97N\"><path fill=\"currentColor\" d=\"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z\"></path></svg><svg viewBox=\"0 0 24 24\" class=\"copyButtonSuccessIcon_LjdS\"><path fill=\"currentColor\" d=\"M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z\"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>",
+            "url": "https://goodlemurian.github.io/mise-website/blog/mdx-blog-post",
+            "title": "MDX Blog Post",
+            "summary": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date_modified": "2000-01-01T00:00:00.000Z",
+            "author": {
+                "name": "Sébastien Lorber",
+                "url": "https://sebastienlorber.com"
+            },
+            "tags": [
+                "docusaurus"
+            ]
+        }
+    ]
+}

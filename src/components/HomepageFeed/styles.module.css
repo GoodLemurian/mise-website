@@ -1,0 +1,16 @@
+.blogfeed {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  width: 100%;
+}
+.latest-articles {
+  list-style: circle;
+}
+.article {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+.articleTitle {
+  color: #333;
+}
