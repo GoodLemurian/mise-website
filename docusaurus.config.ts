@@ -24,10 +24,10 @@ const config: Config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'ja',
-    locales: ['ja'],
-  },
+  // i18n: {
+  //   defaultLocale: 'ja',
+  //   locales: ['ja'],
+  // },
 
   presets: [
     [
@@ -35,17 +35,27 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          path: 'blog',
+          routeBasePath: 'blog',
+          include: ['*.md', '*.mdx'],
+          blogSidebarTitle: 'All posts',
+          feedOptions: {
+            "type": "json",
+            "title": "My Blog",
+            "description": "My Blog RSS feed",
+            "copyright": "Copyright © " + new Date().getFullYear() + " My Project",
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -53,7 +63,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
