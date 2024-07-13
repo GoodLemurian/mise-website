@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
     link: './docs/watashitachi-no-hiroshima',
   },
   {
-    title: '広島市地図・県地図',
+    title: '広島市地図',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
