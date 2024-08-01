@@ -6,7 +6,7 @@ function BlogFeedComponent() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const url = 'https://goodlemurian.github.io/mise-website/feed.json';
+    const url = 'https://goodlemurian.github.io/mise-website/blog/feed.json';
 
     fetch(url)
       .then((response) => {

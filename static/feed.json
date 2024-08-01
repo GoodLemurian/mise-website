@@ -4,46 +4,23 @@
     "home_page_url": "https://goodlemurian.github.io/mise-website/blog",
     "items": [
         {
+            "id": "https://goodlemurian.github.io/mise-website/blog/R6-SummerVacation",
+            "content_html": "<p>令和6年8月13日から15日まで夏季休暇をいただきます。\nご不便をおかけいたしますが、何卒よろしくお願い申し上げます。</p>",
+            "url": "https://goodlemurian.github.io/mise-website/blog/R6-SummerVacation",
+            "title": "令和6年8月13日～15日まで夏季休暇のお知らせ",
+            "summary": "令和6年8月13日から15日まで夏季休暇をいただきます。",
+            "date_modified": "2024-08-01T00:00:00.000Z",
+            "tags": [
+                "休業"
+            ]
+        },
+        {
             "id": "https://goodlemurian.github.io/mise-website/blog/R6-Release",
-            "content_html": "<p>令和6年度版の小学校社会科副読本<a href=\"https://goodlemurian.github.io/mise-website/docs/watashitachi-no-hiroshima\">わたしたちの広島</a> および、\n児童用副教材<a href=\"https://goodlemurian.github.io/mise-website/docs/city-pref-maps\">広島市・県地図</a>を発売しました。</p>\n<p>この度、小学校３年生・４年生用社会科教材として、「広島市地図」ならびに「広島県地図」の見本を広島市内小学校にお届けしております。\n３・４年生担任先生におかれましては、ご検討の上、是非ともご採択くださいます様、よろしくお願いいたします。</p>\n<ul>\n<li>「わたしたちの広島」　８８０円（税込）</li>\n<li>「広島市地図」　２６０円（税込）</li>\n<li>「広島県地図」　２６０円（税込）</li>\n</ul>\n<p><a href=\"https://forms.gle/6u5BAaspssEDjGtf8\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a> のフォームよりご注文いただけます。</p>",
+            "content_html": "<p>令和6年度版の小学校社会科副読本<a href=\"https://goodlemurian.github.io/mise-website/docs/watashitachi-no-hiroshima\">わたしたちの広島</a> および、\n児童用副教材<a href=\"https://goodlemurian.github.io/mise-website/docs/city-maps\">広島市地図</a>、<a href=\"https://goodlemurian.github.io/mise-website/docs/pref-maps\">広島県地図</a>を発売しました。</p>\n<p>この度、小学校3年生・4年生用社会科教材として、「広島市地図」ならびに「広島県地図」の見本を広島市内小学校にお届けしております。\n3・4年生担任先生におかれましては、ご検討の上、是非ともご採択くださいます様、よろしくお願いいたします。</p>\n<ul>\n<li>「わたしたちの広島３年，４年」　880円（税込）</li>\n<li>「広島市地図」　260円（税込）</li>\n<li>「広島県地図」　260円（税込）</li>\n</ul>\n<p><a href=\"https://forms.gle/6u5BAaspssEDjGtf8\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a> のフォームよりご注文いただけます。</p>",
             "url": "https://goodlemurian.github.io/mise-website/blog/R6-Release",
-            "title": "令和６年度版『わたしたちの広島』、「広島市地図」「広島県地図」発売のお知らせ",
+            "title": "令和6年度版『わたしたちの広島』、「広島市地図」「広島県地図」発売のお知らせ",
             "summary": "令和6年度版の小学校社会科副読本わたしたちの広島 および、",
             "date_modified": "2024-04-26T00:00:00.000Z",
-            "author": {
-                "name": "Endilie Yacop Sucipto",
-                "url": "https://github.com/endiliey"
-            },
-            "tags": [
-                "新発売"
-            ]
-        },
-        {
-            "id": "https://goodlemurian.github.io/mise-website/blog/USNavy-Airraid",
-            "content_html": "<p>工藤洋三著『アメリカ海軍艦載機の日本空襲 -１９４５年２月の東京空襲から連合軍捕虜の解放まで』発売</p>\n<p>昭和２０（１９４５）年３月１９日の呉空襲、４月７日の戦艦大和攻撃、７月２４～２５日・２８日の呉空襲についても紹介があります。\n<a href=\"https://goodlemurian.github.io/mise-website/docs/others\">詳細ページ</a></p>\n<ul>\n<li>定価３，０８０円（税込）</li>\n<li>A4版</li>\n<li>260ページ</li>\n</ul>\n<p><a href=\"https://forms.gle/6u5BAaspssEDjGtf8\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a> のフォームよりご注文いただけます。</p>",
-            "url": "https://goodlemurian.github.io/mise-website/blog/USNavy-Airraid",
-            "title": "『アメリカ海軍艦載機の日本空襲 -１９４５年２月の東京空襲から連合軍捕虜の解放まで』発売",
-            "summary": "工藤洋三著『アメリカ海軍艦載機の日本空襲 -１９４５年２月の東京空襲から連合軍捕虜の解放まで』発売",
-            "date_modified": "2018-07-27T00:00:00.000Z",
-            "author": {
-                "name": "Endilie Yacop Sucipto",
-                "url": "https://github.com/endiliey"
-            },
-            "tags": [
-                "新発売"
-            ]
-        },
-        {
-            "id": "https://goodlemurian.github.io/mise-website/blog/Hiroshima-Chireki-Walk",
-            "content_html": "<p>広島地理教育研究会編『ひろしま地歴ウォーク』発売</p>\n<p>広島の街をちょっと“アカデミック”に歩く！　新しいカタチのタウン情報誌。\n<a href=\"https://goodlemurian.github.io/mise-website/docs/others\">詳細ページ</a></p>\n<ul>\n<li>定価９９８円（税込）</li>\n<li>A4版</li>\n<li>260ページ</li>\n</ul>\n<p><a href=\"https://forms.gle/6u5BAaspssEDjGtf8\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a> のフォームよりご注文いただけます。</p>",
-            "url": "https://goodlemurian.github.io/mise-website/blog/Hiroshima-Chireki-Walk",
-            "title": "『ひろしま地歴ウォーク』』発売",
-            "summary": "広島地理教育研究会編『ひろしま地歴ウォーク』発売",
-            "date_modified": "2018-03-30T00:00:00.000Z",
-            "author": {
-                "name": "Endilie Yacop Sucipto",
-                "url": "https://github.com/endiliey"
-            },
             "tags": [
                 "新発売"
             ]
