@@ -40,7 +40,7 @@ const Access: React.FC = () => {
               <tr><th>TEL</th><td>082-247-0968</td></tr>
               <tr><th>FAX</th><td>082-247-0968</td></tr>
               <tr><th>メールアドレス</th><td>info＠chugokusyoten.jp</td></tr>
-              <tr><th>営業時間</th><td>AM9:30~PM6:00<br />（土・日・祝祭日、年末年始・お盆における弊店休業日を除きます）</td></tr>
+              <tr><th>営業時間</th><td>AM 9:30 ~ PM 6:00<br />（土・日・祝祭日、年末年始・お盆における弊店休業日を除きます）</td></tr>
             </table>
           </div>
         </section>

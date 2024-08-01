@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: '地図の店 中国書店',
-  tagline: '広島市内小学校社会科副読本『わたしたちの広島３年，４年』並びに児童用「広島市地図」「広島県地図」を取り扱っております。',
+  tagline: '広島市内小学校社会科副読本『わたしたちの広島3年,4年』並びに児童用「広島市地図」「広島県地図」を取り扱っております。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -100,7 +100,7 @@ const config: Config = {
           title: '取扱商品',
           items: [
             {
-              label: 'わたしたちの広島３年，４年',
+              label: 'わたしたちの広島3年,4年',
               to: '/goods#わたしたちの広島',
             },
             {
