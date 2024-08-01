@@ -11,7 +11,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'わたしたちの広島',
+    title: 'わたしたちの広島３年，４年',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        「わたしたちの広島」の内容に合わせて編集した広島市の地図です。多くの小学校でご利用いただいております。
+        「わたしたちの広島３年，４年」の内容に合わせて編集した広島市の地図です。多くの小学校でご利用いただいております。
       </>
     ),
     link: './goods#広島市地図',
@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        「わたしたちの広島」の内容に合わせて編集した広島県の地図です。多くの小学校でご利用いただいております。
+        「わたしたちの広島３年，４年」の内容に合わせて編集した広島県の地図です。多くの小学校でご利用いただいております。
       </>
     ),
     link: './goods#広島県地図',
