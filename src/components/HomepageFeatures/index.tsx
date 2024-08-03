@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        昭和32年（1957）以来、広島市の小学校3・4年生の郷土史学習のための「社会科副読本」として採択されています。
+        昭和32年（1957）に前身の『生産県をめざすわが郷土広島』が創刊されました。現在は、広島市の小学校3・4年生の郷土史学習のための「社会科副読本」として採択されています。
       </>
     ),
     link: './goods#わたしたちの広島',
@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        「わたしたちの広島3年,4年」の内容に合わせて編集した広島市の地図です。多くの小学校でご利用いただいております。
+        『わたしたちの広島3年,4年』の内容に合わせて編集した広島市の地図です。多くの小学校でご利用いただいております。
       </>
     ),
     link: './goods#広島市地図',
@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        「わたしたちの広島3年,4年」の内容に合わせて編集した広島県の地図です。多くの小学校でご利用いただいております。
+        『わたしたちの広島3年,4年』の内容に合わせて編集した広島県の地図です。多くの小学校でご利用いただいております。
       </>
     ),
     link: './goods#広島県地図',

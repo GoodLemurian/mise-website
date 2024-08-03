@@ -9,7 +9,7 @@
 }
 .article {
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
 }
 .articleLink {
 }
