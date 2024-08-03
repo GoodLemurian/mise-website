@@ -34,7 +34,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`ホーム`}
-      description="Description will go into a meta tag in <head />">
+      description="広島市内小学校社会科副読本『わたしたちの広島3年,4年』並びに児童用「広島市地図」「広島県地図」を取り扱っております。">
       <HomepageHeader />
       <main>
         <HomepageFeed />
