@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'わたしたちの広島3年,4年',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/watashitatchi-logo.svg').default,
     description: (
       <>
         昭和32年（1957）に前身の『生産県をめざすわが郷土広島』が創刊されました。現在は、広島市の小学校3・4年生の郷土史学習のための「社会科副読本」として採択されています。
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '広島市地図',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/citymap.svg').default,
     description: (
       <>
         『わたしたちの広島3年,4年』の内容に合わせて編集した広島市の地図です。多くの小学校でご利用いただいております。
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '広島県地図',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/prefmap.svg').default,
     description: (
       <>
         『わたしたちの広島3年,4年』の内容に合わせて編集した広島県の地図です。多くの小学校でご利用いただいております。
