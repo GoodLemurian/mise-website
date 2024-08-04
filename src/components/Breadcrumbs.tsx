@@ -18,7 +18,6 @@ const Breadcrumbs: React.FC = () => {
 
   return (
     <nav className={styles.breadcrumbs}>
-      <Link to="/" className={styles.breadcrumbLink}>Home</Link>
       {breadcrumbs.map((breadcrumb, index) => (
         <span key={breadcrumb.to} className={styles.breadcrumbItem}>
           <span className={styles.breadcrumbSeparator}>/</span>
