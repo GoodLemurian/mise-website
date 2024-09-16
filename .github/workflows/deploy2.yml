@@ -39,5 +39,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ${{ needs.build.outputs.build-dir }}  # ビルドされたディレクトリ
-          server-dir: ${{ secrets.SERVER_DIR }}  # サーバ上のデプロイ先ディレクトリ
+          local-dir: ${{ needs.build.outputs.build-dir }}
+          server-dir: ${{ secrets.SERVER_DIR }}

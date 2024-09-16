@@ -8,10 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://goodlemurian.github.io/',
+  url: 'https://www.chugokusyoten.jp/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mise-website/',
+  baseUrl: '/test/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
