@@ -22,9 +22,10 @@ jobs:
       - name: Build Docusaurus site
         run: npm run build
 
-      - name: Deploy to Sakura server via FTP
+      - name: Deploy to Sakura server via FTPS
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
+          protocol: ftps
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
