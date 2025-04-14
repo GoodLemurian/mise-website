@@ -6,7 +6,7 @@ function BlogFeedComponent() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const url = 'https://chugokusyoten.jp/blog/feed.json';
+    const url = './blog/feed.json';
 
     fetch(url)
       .then((response) => {
