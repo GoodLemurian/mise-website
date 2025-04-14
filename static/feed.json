@@ -4,6 +4,28 @@
     "home_page_url": "https://www.chugokusyoten.jp/blog",
     "items": [
         {
+            "id": "https://www.chugokusyoten.jp/blog/R7-Release",
+            "content_html": "<p>令和7年度版の小学校社会科副読本『<a href=\"https://www.chugokusyoten.jp/goods#%E3%82%8F%E3%81%9F%E3%81%97%E3%81%9F%E3%81%A1%E3%81%AE%E5%BA%83%E5%B3%B63%E5%B9%B44%E5%B9%B4\">わたしたちの広島3年,4年</a>』 および、\n児童用副教材「<a href=\"https://www.chugokusyoten.jp/goods#%E5%BA%83%E5%B3%B6%E5%B8%82%E5%9C%B0%E5%9B%B3\">広島市地図</a>」「<a href=\"https://www.chugokusyoten.jp/goods#%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%9C%B0%E5%9B%B3\">広島県地図</a>」を発売しました。</p>\n<p>この度、小学校3年生・4年生用社会科教材として、「広島市地図」ならびに「広島県地図」の見本を広島市内小学校にお届けしております。\n3・4年生担任先生におかれましては、ご検討の上、是非ともご採択くださいます様、よろしくお願いいたします。</p>\n<ul>\n<li>わたしたちの広島3年,4年 880円（税込）</li>\n<li>広島市地図 260円（税込）</li>\n<li>広島県地図 260円（税込）</li>\n</ul>\n<p>ご注文方法は、<a href=\"https://www.chugokusyoten.jp/tsushinhanbai#%E3%82%8F%E3%81%9F%E3%81%97%E3%81%9F%E3%81%A1%E3%81%AE%E5%BA%83%E5%B3%B63%E5%B9%B44%E5%B9%B4%E5%BA%83%E5%B3%B6%E5%B8%82%E5%9C%B0%E5%9B%B3%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%9C%B0%E5%9B%B3%E3%81%AE%E3%81%94%E6%B3%A8%E6%96%87\">こちら</a>をご確認ください。</p>",
+            "url": "https://www.chugokusyoten.jp/blog/R7-Release",
+            "title": "令和7年度版『わたしたちの広島』、「広島市地図」「広島県地図」発売のお知らせ",
+            "summary": "令和7年度版の小学校社会科副読本『わたしたちの広島3年,4年』 および、",
+            "date_modified": "2025-04-14T00:00:00.000Z",
+            "tags": [
+                "新発売"
+            ]
+        },
+        {
+            "id": "https://www.chugokusyoten.jp/blog/R6R7-NewYearHolidays",
+            "content_html": "<p>年末年始の休業は、令和6年12月28日から令和7年1月5日です。</p>\n<p>また、1月20日~21日は臨時休業いたします。</p>\n<p>ご不便をおかけいたしますが、何卒よろしくお願い申し上げます。</p>",
+            "url": "https://www.chugokusyoten.jp/blog/R6R7-NewYearHolidays",
+            "title": "年末年始の休業と1月の臨時休業について",
+            "summary": "年末年始の休業は、令和6年12月28日から令和7年1月5日です。",
+            "date_modified": "2024-12-20T00:00:00.000Z",
+            "tags": [
+                "休業"
+            ]
+        },
+        {
             "id": "https://www.chugokusyoten.jp/blog/R6-SummerVacation",
             "content_html": "<p>令和6年8月13日から15日まで夏季休暇をいただきます。\nご不便をおかけいたしますが、何卒よろしくお願い申し上げます。</p>",
             "url": "https://www.chugokusyoten.jp/blog/R6-SummerVacation",
@@ -12,17 +34,6 @@
             "date_modified": "2024-08-01T00:00:00.000Z",
             "tags": [
                 "休業"
-            ]
-        },
-        {
-            "id": "https://www.chugokusyoten.jp/blog/R6-Release",
-            "content_html": "<p>令和6年度版の小学校社会科副読本『<a href=\"https://www.chugokusyoten.jp/goods#%E3%82%8F%E3%81%9F%E3%81%97%E3%81%9F%E3%81%A1%E3%81%AE%E5%BA%83%E5%B3%B63%E5%B9%B44%E5%B9%B4\">わたしたちの広島3年,4年</a>』 および、\n児童用副教材「<a href=\"https://www.chugokusyoten.jp/goods#%E5%BA%83%E5%B3%B6%E5%B8%82%E5%9C%B0%E5%9B%B3\">広島市地図</a>」「<a href=\"https://www.chugokusyoten.jp/goods#%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%9C%B0%E5%9B%B3\">広島県地図</a>」を発売しました。</p>\n<p>この度、小学校3年生・4年生用社会科教材として、「広島市地図」ならびに「広島県地図」の見本を広島市内小学校にお届けしております。\n3・4年生担任先生におかれましては、ご検討の上、是非ともご採択くださいます様、よろしくお願いいたします。</p>\n<ul>\n<li>わたしたちの広島3年,4年 880円（税込）</li>\n<li>広島市地図 260円（税込）</li>\n<li>広島県地図 260円（税込）</li>\n</ul>\n<p>ご注文方法は、<a href=\"https://www.chugokusyoten.jp/tsushinhanbai#%E3%82%8F%E3%81%9F%E3%81%97%E3%81%9F%E3%81%A1%E3%81%AE%E5%BA%83%E5%B3%B63%E5%B9%B44%E5%B9%B4%E5%BA%83%E5%B3%B6%E5%B8%82%E5%9C%B0%E5%9B%B3%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%9C%B0%E5%9B%B3%E3%81%AE%E3%81%94%E6%B3%A8%E6%96%87\">こちら</a>をご確認ください。</p>",
-            "url": "https://www.chugokusyoten.jp/blog/R6-Release",
-            "title": "令和6年度版『わたしたちの広島』、「広島市地図」「広島県地図」発売のお知らせ",
-            "summary": "令和6年度版の小学校社会科副読本『わたしたちの広島3年,4年』 および、",
-            "date_modified": "2024-04-26T00:00:00.000Z",
-            "tags": [
-                "新発売"
             ]
         }
     ]
