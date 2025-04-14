@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'GoodLemurian', // Usually your GitHub org/user name.
-  projectName: 'mise-website', // Usually your repo name.
+  // organizationName: 'GoodLemurian', // Usually your GitHub org/user name.
+  // projectName: 'mise-website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
