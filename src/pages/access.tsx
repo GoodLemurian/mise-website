@@ -35,7 +35,7 @@ const Access: React.FC = () => {
         <section className={styles.address}>
           <div className="container">
             <table>
-              <tr><th>最寄駅</th><td>広島電鉄電車 袋町駅・本通駅<br />アストラムライン 本通駅</td></tr>
+              <tr><th>最寄駅</th><td>広島電鉄電車（1, 3, 7, L） 袋町駅/本通駅<br />アストラムライン 本通駅</td></tr>
               <tr><th>住所</th><td>〒730-0036<br />広島市中区袋町5-35ルミナス袋町1401（表札は「竹﨑」となっています）</td></tr>
               <tr><th>TEL</th><td>082-247-0968</td></tr>
               <tr><th>FAX</th><td>082-247-0968</td></tr>
